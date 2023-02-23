@@ -1,0 +1,24 @@
+#include <stdio.h>
+int add(int x,int y)
+{
+    int add;
+    add = x + y;
+    return add;
+}
+
+int main()
+{
+    int p,q,r;
+    
+    printf("Enter the values:\n");
+    printf("p = ");
+    scanf("%d",&p);
+    printf("q = ");
+    scanf("%d",&q);
+    
+    r = add(p,q);
+    
+    printf("\n%d + %d = %d",p,q,r);
+    
+    return 0;
+}
